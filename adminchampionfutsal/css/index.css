@@ -1,0 +1,118 @@
+/*style*/
+
+body{
+	margin:0px;
+	padding:0px;
+    font: 16px/25px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+    
+}
+
+.container {
+	margin:0px;
+	padding:0px;
+    margin: auto;
+    background-color: #eee;
+    color: #000;
+}
+
+
+.header1{
+	
+	padding-top:20px;
+	padding-bottom:10px;
+	display: block;
+	background-color:cadetblue
+
+}
+
+
+
+.aran{
+	
+	display:block;
+	width: 50%;
+	height: 30px;
+	font-size:17px;
+	font-family: arial\,sans-serif;
+	color:white;
+	  
+}
+.kotak{
+	
+	height:200px;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+}
+
+
+.isikotak{
+	
+	width:90%;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:20px;
+	color:black;
+	font-size:14px;
+	text-align:center;
+
+}
+
+
+.pesan{
+	display:block;
+	width:100%;
+	height:40px;
+	background-color:cadetblue;
+}
+
+.tombol{
+	
+	display: block;
+	width:50%;
+	height:40px;
+	font-weight:bold;	
+}
+
+.databoking{
+	
+	margin-top: 10px;
+	width: 35%; 
+	height: 25px;
+	font-family:-webkit-body;
+}
+
+.coret{
+	
+	display:block;
+	width:15%;
+	height:25px;
+	margin-left:30%;
+	margin-top: 20px;
+	margin-bottom:-10px;
+	text-align:left;
+	font-family:cursive;
+}
+
+.kunci{
+
+	display:block;
+	width:25%;
+	height:40px;
+	margin-top: 20px;
+	margin-left:38%;
+}
+.pilihcab{
+	
+	display: block;
+	margin-left:20px;
+	width:150%;
+	height:30px;
+}
+

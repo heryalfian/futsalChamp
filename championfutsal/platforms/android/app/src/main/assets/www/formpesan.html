@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<title> Champion Futsal </title>
+
+	<script src="js/index.js"></script>
+	<script type="text/javascript" src="js/tcal.js"></script>
+
+	<script type="text/javascript" src="api/kumpulan.js"></script>
+	<script type="text/javascript">
+		bokingan();
+	</script>
+
+</head>
+<body>
+<div class="container">
+	
+	<div class="header1" align="center">
+	<h1 class="aran"> Pesan Lapangan </h1>
+	</div>
+	<div class="kotak">
+		<div class="isikotak" align="center">
+		<!-- <form class="formpesan" action="#index" > -->
+<!-- action="index.html" -->
+			<input class="databoking" type="text" id="nama"  placeholder="Nama"> 
+			
+			<input class="databoking" type="text" id="no_hp" placeholder="No HP"> <br />
+
+			<div class="coret"> Pilihan Cabang </div>
+			<input class="databoking" type="text" placeholder="Cabang x" id="cabangx" disabled="">
+
+			<div class="coret"> Lapangan </div>
+			<input class="databoking" type="text" placeholder="lapangan ke-" id="legos" disabled=""> 
+            
+            <div class="coret"> Tanggal </div>
+			<input class="databoking" placeholder="Tanggal" id="tanggalan" disabled=""> 
+            
+            <div class="coret"> Jam </div>
+			<input class="databoking" id="jam" placeholder="Pukul" disabled=""> 
+
+			<div class="coret"> Durasi </div>
+			<input class="databoking" type="text" value="test" id="durasi" placeholder="Durasi" disabled="">
+
+			<div class="kunci" align="center">
+				<button class="tombol" type="button" onclick="aran()"> Submit </button>
+			<!-- <input class="tombol" type="submit" value="Submit" name="submit" onclick="aran()"> -->
+			</div>
+
+			
+
+		<!-- </form> -->
+		</div>
+
+	</div>
+</div>
+	 
+</body>
+</html>

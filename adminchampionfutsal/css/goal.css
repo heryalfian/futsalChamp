@@ -1,0 +1,199 @@
+body{
+    
+    margin:0px;
+    padding:0px;
+    font: 16px/25px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+    
+}
+
+.container {
+    margin:0px;
+    padding:0px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.header{
+
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:cadetblue;
+}
+
+.judul{
+    
+    font-weight: bold;
+    text-align: center;
+    display:block;
+    width: 30%;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-60px;
+    font-size:35px;
+    font-family:serif;
+    color:white;
+}
+
+.logo{
+    
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-right:auto;
+    margin-top:50px;
+    margin-left:30%;
+
+}
+
+.admin{
+    padding-top:10px;
+    padding-bottom:400px;
+    display:block;
+    background-color:#a9a9a9;
+    width:15%;
+    height:auto;
+
+}
+
+
+.logoadmin{
+    display:block;
+    width:100px;
+    height:100px;
+    margin-left:25%;
+    margin-top:10px;
+    
+}
+.aranlogo{
+    
+    width:30%;
+    height:20px;
+    font-family:-webkit-pictograph;
+    font-weight:bold;
+    font-size:15px;
+    margin-left:33%;
+    margin-bottom:20px;
+}
+
+.pilihmenu{
+
+    
+    width:100%;
+    height:60px;
+    font-weight:bold;
+    text-align:center;
+    font-size:18px;
+    font-family:cursive;
+    background-color:#a9a9a9;
+    margin-top:0px;
+}
+
+.aranhlmn{
+    
+    display:block;
+    width:80%;
+    height:40px;
+    margin-left:15%;
+    margin-top:-49%;
+    font-weight:bold;
+    font-family: -webkit-pictograph;
+    font-size:22px; 
+}
+
+.taokdata{
+    
+    
+    margin-top:0px;
+    margin-left: 18%;
+}
+
+.taokdata1{
+    margin-top: 20px;
+    margin-left: 18%;
+}
+
+.plhcabang{
+    
+    display:inline-block;
+    margin-left:18%;
+    height:35px;
+    width:15%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.pilen{
+    display:inline-block;
+    margin-top:30px;
+    margin-left:18%;
+    margin-right:-18%;
+    width:15%;
+    height:30px;
+    font-weight:bold;
+}
+
+.plus{
+    
+    display: block;
+    height:30px;
+    width:6%;
+    margin-left:80%;
+    margin-top:-4%;
+    background-color:#73a8c1;
+    color:white;
+    
+}
+.about{
+    
+    display:block;
+    width:15%;
+    height:40px;
+    margin-left:40%;
+    margin-top:-50%;
+    font-weight:bold;
+    font-family: -webkit-pictograph;
+    font-size:22px; 
+}
+
+.yip{
+    
+    margin-left:25%;
+    margin-top:-20px;
+    display:block;
+    width:20%;
+}
+
+.yis{
+    
+    margin-left:25%;
+    margin-top:-20px;
+    display:block;
+    width:50%;
+}
+
+.ava{
+     display:block;
+    width:60px;
+    height:60px;
+}
+
+.cadel{
+    
+    display:block;
+    width:35%;
+    margin-left:38%;
+    font-weight:bold;
+    margin-top:-3%;
+}
+
+.eyik{
+    
+    display:block;
+    width:25%;
+    margin-left: 40%;
+    margin-top:-2%;
+}

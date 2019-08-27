@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+	
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+
+	<title> Champion Futsal </title>
+
+	<script src="js/index.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/tcal.css">
+	<script type="text/javascript" src="js/tcal.js"></script>
+
+	<script type="text/javascript" src="api/kumpulan.js"></script>
+
+<!-- 	<script>
+		periksa1();
+	</script>  -->
+
+	
+
+</head>
+<body>
+
+<div class="container">
+<div class="header1" align="center">
+			 
+		<h1 class="aran"> Champion Futsal Suhat </h1>
+
+		</div>
+
+		<div class="lpgn"> 
+			<img class="lapangan1" src="img/suhat.png">
+		</div>
+			<img class="logoloc" src="img/location.png">
+
+		<div class="taokna">Jl. Kembang Kertas No.26C, Kota Malang.</div>
+		<div class="jambuka" align="left"> Jam Operasional: 08.00-23.59 WIB</div>
+
+	<div class="kotak">
+		<div class="judulkotak">
+			Silahkan pilih jadwal anda !
+			
+			<div class="isikotak" align="center">
+				<div class="tgl">
+					<input class="tcal" id="tanggal" name="date" placeholder="Tanggal" >	
+				</div>
+				
+				<select class="pilihlpgn" align="center" id="pilihlpgn">
+		  			<option value="1" selected="">Lapangan 1</option>
+		  			<option value="2">Lapangan 2</option>
+				</select>
+
+				<div class="tambahan">
+					<button type="button" class="tombolcari" id="carijam" onclick="periksa1()"> cari </button>
+				</div>
+				
+				<div id="cek-booking">
+				</div>
+			</div>
+			<div class="pesan" align="center"> 
+				<!-- <button class="tombol" type="button" > Register </button> -->
+				<button class="tombol" type="button" onclick="borong1()"> Register </button>
+
+			</div>				
+		</div>
+	</div>
+
+</div>	
+</body>
+
+</html>
